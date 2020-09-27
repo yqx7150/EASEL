@@ -1,0 +1,27 @@
+!!python/object:argparse.Namespace
+data: !!python/object:argparse.Namespace
+  channels: 10
+  dataset: AAPM
+  image_size: 512
+  logit_transform: false
+  random_flip: false
+model: !!python/object:argparse.Namespace
+  batch_norm: false
+  ngf: 64
+  num_classes: 12
+  sigma_begin: 1
+  sigma_end: 0.01
+optim: !!python/object:argparse.Namespace
+  amsgrad: false
+  beta1: 0.9
+  lr: 0.001
+  optimizer: Adam
+  weight_decay: 0.0
+training: !!python/object:argparse.Namespace
+  algo: dsm
+  anneal_power: 2.0
+  batch_size: 1
+  n_epochs: 500000
+  n_iters: 100001
+  ngpu: 1
+  snapshot_freq: 500
