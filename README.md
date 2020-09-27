@@ -14,3 +14,10 @@ Dose reduction in computed tomography (CT) is essential for decreasing radiation
     CUDA==9.0
     
 ## 
+![repeat-EASEL](https://github.com/yqx7150/EASEL/blob/master/EASEL/Figs/fig2.png)
+Fig. 1. The training and reconstruction paradigm of the generative model-based algorithm EASEL. It consists of two components, i.e., a denoising score matching for score estimation involving various noise magnitudes simultaneously, and an iterative cycle for reconstruction including the annealed and conditional Langevin dynamics.
+
+## Visual Comparisons
+![repeat-EASEL](https://github.com/yqx7150/EASEL/blob/master/EASEL/Figs/ret.png)
+![repeat-EASEL](https://github.com/yqx7150/EASEL/blob/master/EASEL/Figs/zoom_ret.png)
+Fig. 2. Reconstruction results of AAPM challenge data for different methods. From left to right: reference image, FBP, TV, K-SVD, RED-CNN, DP-ResNet,  EASEL.
