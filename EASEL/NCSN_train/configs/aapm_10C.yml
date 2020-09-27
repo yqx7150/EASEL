@@ -1,0 +1,32 @@
+training:
+  batch_size: 1
+  n_epochs: 500000
+  n_iters: 100001
+  ngpu: 1
+  snapshot_freq: 500
+  algo: 'dsm'
+  anneal_power: 2.0
+
+data:
+  dataset: "AAPM"
+  image_size: 512
+  channels: 10
+  logit_transform: false
+  random_flip: false
+
+model:
+  sigma_begin: 1
+  sigma_end: 0.01
+  num_classes: 12
+  batch_norm: false
+  ## configurations for CelebA, CIFAR10
+  ngf: 64
+  ### configurations for MNIST
+#  ngf: 64
+#lr=0.001 ori
+optim:
+  weight_decay: 0.000
+  optimizer: "Adam"
+  lr: 0.001   #0.0005----bad
+  beta1: 0.9
+  amsgrad: false
