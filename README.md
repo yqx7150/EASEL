@@ -18,7 +18,7 @@ Fig. 1. The training and reconstruction paradigm of the generative model-based a
     CUDA==9.0
     
 ## Test
-python3.5 separate_ImageNet.py --model ncsn --runner Aapm_Runner_CTtest_10_noconv --config aapm_10C.yml --doc AapmCT_10C --test --image_folder output
+    python3.5 separate_ImageNet.py --model ncsn --runner Aapm_Runner_CTtest_10_noconv --config aapm_10C.yml --doc AapmCT_10C --test --image_folder output
 
 ## Checkpoints
 The pretrained checkpoints can be download pretrained models from [Baidu Drive](https://pan.baidu.com/s/1hV-_RsZi0ii7Uh_ADBEj1Q ). 
