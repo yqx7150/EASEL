@@ -1,7 +1,7 @@
 # EASEL 
-Iterative Reconstruction for Low-Dose CT using Deep Gradient Priors of Generative Model
+Iterative Reconstruction for Low-Dose CT 
     
-    
+Iterative Reconstruction for Low-Dose CT using Deep Gradient Priors of Generative Model    
 The Code is created based on the method described in the following paper:        
 Iterative Reconstruction for Low-Dose CT using Deep Gradient Priors of Generative Model.      
 Zhuonan He, Yikun Zhang, Yu Guan, Shanzhou Niu, Yi Zhang,  Yang Chen, Qiegen Liu.
