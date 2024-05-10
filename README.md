@@ -45,6 +45,9 @@ Fig. 2. Reconstruction results of AAPM challenge data for different methods. Fro
   * REDAEP: Robust and Enhanced Denoising Autoencoding Prior for Sparse-View CT Reconstruction  
 [<font size=5>**[Paper]**</font>](https://ieeexplore.ieee.org/document/9076295)   [<font size=5>**[Code]**</font>](https://github.com/yqx7150/REDAEP)   [<font size=5>**[PPT]**</font>](https://github.com/yqx7150/HGGDP/tree/master/Slide)
 
+  * Wavelet-improved score-based generative model for medical imaging  
+[<font size=5>**[Paper]**</font>](https://ieeexplore.ieee.org/abstract/document/10288274)
+
   * 基于深度能量模型的低剂量CT重建  
 [<font size=5>**[Paper]**</font>](http://cttacn.org.cn/cn/article/doi/10.15953/j.ctta.2021.077)   [<font size=5>**[Code]**</font>](https://github.com/yqx7150/EBM-LDCT)  
 
