@@ -38,7 +38,8 @@ Fig. 2. Reconstruction results of AAPM challenge data for different methods. Fro
 
 
 ### Other Related Projects
-
+<div align="center"><img src="https://github.com/yqx7150/OSDM/blob/main/All-CT.png" >  </div>   
+    
   * One Sample Diffusion Model in Projection Domain for Low-Dose CT Imaging  
 [<font size=5>**[Paper]**</font>](https://ieeexplore.ieee.org/abstract/document/10506793)   [<font size=5>**[Code]**</font>](https://github.com/yqx7150/OSDM)
 
